@@ -19,7 +19,6 @@ public class Main {
         System.out.println(curso1);
         System.out.println(curso2);
 
-
         Mentoria mentoria = new Mentoria();
         mentoria.setTitulo("Mentoria de Java");
         mentoria.setDescricao("Descrição mentoria Java");
