@@ -35,6 +35,14 @@ public class Dev {
                 .stream()
                 .mapToDouble(Conteudo::calcularXP)
                 .sum();
+
+//        Iterator<Conteudo> iterator = this.conteudosConcluidos.iterator();
+//        double soma = 0;
+//        while(iterator.hasNext()){
+//            double next = iterator.next().calcularXp();
+//            soma += next;
+//        }
+//        return soma;
     }
 
     public String getNome() {
